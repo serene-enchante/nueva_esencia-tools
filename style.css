@@ -50,3 +50,17 @@ body{padding-bottom:110px}
 @media(max-width:760px){body{padding-bottom:96px}.player-inner{min-height:76px;padding:9px 14px;gap:10px}.player-copy b{font-size:14px}.player-copy small{font-size:10px}.player-actions{gap:5px}.player-control{width:33px;height:33px}.player-control .material-symbols-outlined{font-size:19px}.rhythm-stats{gap:22px}}
 
 html.pwa-mode body{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
+
+/* Safe-area layout and floating player */
+.now-playing-bar{left:50%;right:auto;bottom:18px;width:min(900px,calc(100% - 40px));transform:translateX(-50%);border:1px solid rgba(215,182,107,.46);border-radius:18px;padding-bottom:0;overflow:hidden}
+.player-inner{max-width:none}
+@media(max-width:760px){
+  html,body{background:var(--cream)}
+  body{background-image:none;background-attachment:scroll;padding-bottom:0}
+  main{max-width:none;margin:0;padding:calc(env(safe-area-inset-top) + 8px) 0 0}
+  .dashboard{min-height:calc(100dvh - env(safe-area-inset-top))}
+  .panel.library{min-height:calc(100dvh - env(safe-area-inset-top));border:0;border-radius:0;background:#F7F2EA;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;padding:20px 16px 132px}
+  .now-playing-bar{left:12px;right:12px;bottom:calc(10px + env(safe-area-inset-bottom));width:auto;transform:none;border-radius:17px}
+  .player-inner{min-height:70px;padding:8px 12px}
+  .now-playing-bar[data-empty="true"] .player-inner{min-height:62px}
+}

@@ -2,7 +2,7 @@ const CACHE_NAME = 'nueva-esencia-shell-v1';
 const SHELL_FILES = [
   './',
   './index.html',
-  './style.css?v=20261109-pwa',
+  './style.css?v=20261109-safearea',
   './app.js?v=20261109-promptfix',
   './config.js',
   './songs.json',
