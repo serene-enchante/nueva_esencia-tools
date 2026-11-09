@@ -1,6 +1,6 @@
 # Nueva Esencia Repertoire
 
-A static GitHub Pages site for the group's repertoire and practice log. It includes event and church ceremony catalogs, singer/key metadata, a random song picker, last-practiced dates, live current-practice updates, section notes, and 30-day practice counts.
+A static GitHub Pages site for the group's repertoire and practice log. It includes event and church ceremony catalogs, singer/key metadata, a shuffle action in the persistent bottom player, last-practiced dates, live current-practice updates, section notes, and a Practice rhythm tab with 30-day counts.
 
 ## Current state
 
