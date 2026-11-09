@@ -2,6 +2,8 @@
 
 A static GitHub Pages site for the group's repertoire and practice log. It includes event and church ceremony catalogs, singer/key metadata, a shuffle action in the persistent bottom player, last-practiced dates, live current-practice updates, section notes, and a Practice rhythm tab with 30-day counts.
 
+The site is installable as a PWA on supported browsers. On mobile, use the browser's **Add to Home Screen** or **Install app** option. The service worker caches the app shell and repertoire for offline viewing; live practice sync still needs an internet connection.
+
 ## Current state
 
 The interface and the 83-song starter catalog are in place. To sync across devices, connect a Supabase project:
