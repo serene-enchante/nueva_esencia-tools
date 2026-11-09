@@ -31,6 +31,7 @@ body{padding-bottom:110px}
 .rhythm-view h2{margin-bottom:18px}
 .rhythm-stats{display:flex;gap:40px;flex-wrap:wrap}
 .rhythm-view h3{font-size:12px;margin:22px 0 8px;color:#5A4047}
+.rhythm-stats .stat{gap:18px}
 .now-playing-bar{position:fixed;z-index:60;left:0;right:0;bottom:0;color:#fffaf0;background:rgba(45,8,17,.95);border-top:1px solid rgba(215,182,107,.46);box-shadow:0 -9px 30px rgba(25,4,9,.25);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);padding-bottom:env(safe-area-inset-bottom)}
 .player-inner{max-width:1160px;min-height:82px;margin:0 auto;padding:11px 28px;display:flex;align-items:center;gap:15px}
 .player-main{min-width:0;flex:1;display:flex;align-items:center;gap:13px;padding:6px 4px;border:0;background:transparent;color:inherit;text-align:left;cursor:pointer}
