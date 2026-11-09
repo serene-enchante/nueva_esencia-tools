@@ -3,7 +3,7 @@ const SHELL_FILES = [
   './',
   './index.html',
   './style.css?v=20261109-safearea',
-  './app.js?v=20261109-promptfix',
+  './app.js?v=20261109-historyfix',
   './config.js',
   './songs.json',
   './manifest.webmanifest',

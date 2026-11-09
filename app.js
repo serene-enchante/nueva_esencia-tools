@@ -6,7 +6,7 @@ const configured = window.APP_CONFIG?.supabaseUrl && window.APP_CONFIG?.supabase
 function escapeHtml(s='') { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function dateLabel(value) { if (!value) return 'Never practiced'; return new Intl.DateTimeFormat(undefined,{month:'short',day:'numeric'}).format(new Date(value)); }
 function songById(id) { return songs.find(s => s.id === id) || songs.find(s => s.title === id); }
-function setConnection(text, online=false) { const indicator=$('.connection'); const offline=!online&&(/offline|local preview|setup needed|error/i.test(text)); indicator.hidden=!offline; $('#connectionText').textContent=offline?'Live sync offline':''; $('.connection i').classList.toggle('online',online); $('.connection i').classList.toggle('offline',offline); }
+function setConnection(text, online=false) { const indicator=$('.connection'),label=$('#connectionText'),dot=$('.connection i');if(!indicator||!label||!dot)return;const offline=!online&&(/offline|local preview|setup needed|error/i.test(text));indicator.hidden=!offline;label.textContent=offline?'Live sync offline':'';dot.classList.toggle('online',online);dot.classList.toggle('offline',offline); }
 function renderSongs() {
   const q=$('#search').value.trim().toLocaleLowerCase(), cat=$('#category').value;
   const list=songs.filter(s => (cat==='All'||s.category===cat) && (!q||[s.title,s.key,s.artist,s.singers].filter(Boolean).join(' ').toLocaleLowerCase().includes(q)));
