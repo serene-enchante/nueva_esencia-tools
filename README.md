@@ -17,6 +17,8 @@ The interface and the 83-song starter catalog are in place. To sync across devic
 
 The site asks for the group code when someone first tries to start a session or save notes. It stays in that browser tab's session. Anyone can view the catalog and practice history; only the database functions can write session and note records, and they check the code.
 
+For an existing Supabase project, run `supabase/clear-history.sql` once in SQL Editor to enable the confirmed, group-code-protected history clear action. Fresh installs get this function from `supabase/setup.sql`.
+
 ## Repertoire data
 
 `songs.json` is the editable source catalog. Keys, singers, and recording artist/version are stored separately. Missing keys and artists are left blank. Paste a universal Songlink/Odesli or other smart link into `streaming_url` for each song, then seed/update Supabase using the matching rows in `supabase/setup.sql` (or update the `songs` table in the Supabase dashboard).
