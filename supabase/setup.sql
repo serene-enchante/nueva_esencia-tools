@@ -133,7 +133,7 @@ begin
   select code_hash into stored_hash from private.group_access where id=true;
   if stored_hash is null or crypt(p_code,stored_hash)<>stored_hash then raise exception 'invalid access code'; end if;
   update public.current_practice_slot set session_id=null where slot=true;
-  delete from public.practice_sessions;
+  delete from public.practice_sessions where true;
   get diagnostics deleted_count = row_count;
   return deleted_count;
 end; $$;

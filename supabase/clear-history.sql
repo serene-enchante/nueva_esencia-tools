@@ -21,7 +21,7 @@ begin
   set session_id=null
   where slot=true;
 
-  delete from public.practice_sessions;
+  delete from public.practice_sessions where true;
   get diagnostics deleted_count = row_count;
   return deleted_count;
 end;
