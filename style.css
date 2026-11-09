@@ -11,5 +11,7 @@ body{min-height:100vh;background:#26090e url("Background2-min.jpeg") center cent
 .brand-logo{display:block;width:50px;height:50px;object-fit:contain;flex:none;filter:drop-shadow(0 2px 5px rgba(0,0,0,.35))}
 .brand b{color:#f3d487}
 .brand small,.connection{color:#e4d5bd}
+.connection[hidden]{display:none}
+.connection i.offline{background:#D9897E}
 footer{color:#e4d5bd}
 @media(max-width:760px){body{background-attachment:scroll}.brand-logo{width:44px;height:44px}}
