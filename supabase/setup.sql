@@ -3,6 +3,7 @@ create extension if not exists pgcrypto;
 create schema if not exists private;
 revoke all on schema private from public, anon, authenticated;
 create table if not exists private.group_access (id boolean primary key default true check (id), code_hash text not null);
+alter table private.group_access enable row level security;
 revoke all on private.group_access from public, anon, authenticated;
 insert into private.group_access(id,code_hash) values(true, crypt('CHANGE-THIS-CODE', gen_salt('bf'))) on conflict(id) do nothing;
 
