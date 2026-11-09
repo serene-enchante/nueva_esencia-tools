@@ -1,9 +1,9 @@
-const CACHE_NAME = 'nueva-esencia-shell-v1';
+const CACHE_NAME = 'nueva-esencia-shell-v2';
 const SHELL_FILES = [
   './',
   './index.html',
-  './style.css?v=20261109-clearhistory',
-  './app.js?v=20261109-clearhistory',
+  './style.css?v=20261110-clearhistory-verify',
+  './app.js?v=20261110-clearhistory-verify',
   './config.js',
   './songs.json',
   './manifest.webmanifest',
