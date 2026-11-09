@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#213e35"><title>Nueva Esencia · Repertoire</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400,0,0" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#"><span class="brand-mark"><span class="material-symbols-outlined">music_note</span></span><span><b>Nueva Esencia</b><small>Mariachi repertoire</small></span></a><div class="connection"><i></i><span id="connectionText">Connecting…</span></div></header>
+  <main>
+    <section class="hero"><div><p class="eyebrow">OUR SONGBOOK</p><h1>Keep the music<br><em>in motion.</em></h1><p class="subhead">Choose a song, keep the notes together, and make every practice count.</p></div><div class="hero-art" aria-hidden="true"><span class="material-symbols-outlined">music_note</span><span class="material-symbols-outlined">queue_music</span><span class="material-symbols-outlined">music_note</span></div></section>
+    <section class="live-card" id="liveCard"><div class="live-copy"><div class="live-label"><span class="pulse"></span> NOW PRACTICING</div><h2 id="liveTitle">No song in progress</h2><p id="liveMeta">Start a practice to let the group know.</p></div><button class="button button-light" id="notesButton" hidden>Add section notes</button><button class="icon-button" id="finishButton" title="Finish practice" aria-label="Finish practice" hidden><span class="material-symbols-outlined">check</span></button></section>
+    <div class="dashboard">
+      <section class="panel library"><div class="panel-heading"><div><p class="eyebrow">THE REPERTOIRE</p><h2>Song library</h2></div><span id="songCount" class="count">0 songs</span></div>
+        <div class="controls"><label class="search"><span class="material-symbols-outlined">search</span><input id="search" placeholder="Find a song, singer, or key" autocomplete="off"></label><select id="category"><option value="All">All songs</option><option value="Events">Events</option><option value="Church Ceremony">Church ceremony</option></select></div>
+        <div class="song-list" id="songList"></div>
+      </section>
+      <aside class="side-column">
+        <section class="panel random-panel"><p class="eyebrow">PICK SOMETHING TO PLAY</p><h2>What’s next?</h2><p>Let chance choose, with extra weight for songs that need practice.</p><label class="check"><input type="checkbox" id="unpracticedOnly" checked> Prioritize unpracticed songs</label><button class="button button-primary" id="randomButton"><span class="material-symbols-outlined">shuffle</span> Pick a song</button><div id="randomResult" class="random-result" hidden></div></section>
+        <section class="panel stats-panel"><p class="eyebrow">THE LAST 30 DAYS</p><h2>Practice rhythm</h2><div class="stat"><b id="practiceCount">0</b><span>practice sessions</span></div><div class="stat"><b id="songsTouched">0</b><span>different songs played</span></div><h3>Recently practiced</h3><div id="recentList" class="recent-list"></div></section>
+      </aside>
+    </div>
+  </main>
+  <footer>Made for the music we make together <span class="material-symbols-outlined">auto_awesome</span></footer>
+  <dialog id="notesDialog"><form method="dialog" id="notesForm"><button class="dialog-close" value="cancel" aria-label="Close">×</button><p class="eyebrow">PRACTICE NOTES</p><h2 id="dialogSong">Add a note</h2><p class="dialog-hint">Share what your section wants to remember for next time.</p><div id="existingNotes" class="note-history"></div><label>Your name<input id="contributor" maxlength="50" required placeholder="Name"></label><label>Section<select id="section" required><option value="">Select section</option><option>Vocals</option><option>Trumpets</option><option>Violins</option><option>Vihuela</option><option>Guitar</option><option>Guitarrón</option><option>Group</option><option>Other</option></select></label><label>Notes<textarea id="noteText" maxlength="1500" required placeholder="What should we work on?"></textarea></label><button class="button button-primary" id="saveNote" value="default">Save notes</button></form></dialog>
+  <dialog id="codeDialog"><form method="dialog" id="codeForm"><p class="eyebrow">GROUP ACCESS</p><h2>Enter the group code</h2><p class="dialog-hint">Anyone with the code can add practice notes and start sessions.</p><label>Access code<input id="accessCode" type="password" required autocomplete="current-password"></label><button class="button button-primary" id="unlockButton" value="default">Continue</button><p id="codeError" class="error"></p></form></dialog>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script src="app.js"></script>
+</body></html>

@@ -1,0 +1,666 @@
+[
+  {
+    "title": "Aca Entre Nos",
+    "category": "Events",
+    "key": "C",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Amigo",
+    "category": "Events",
+    "key": "Gm",
+    "artist": "Mariachi Nuevo Tecalitlan",
+    "singers": "Marco & Julian",
+    "streaming_url": null
+  },
+  {
+    "title": "Amor Eterno",
+    "category": "Events",
+    "key": "C",
+    "artist": "Juan Gabriel",
+    "singers": "Renata",
+    "streaming_url": null
+  },
+  {
+    "title": "Árboles de la Barranca",
+    "category": "Events",
+    "key": "C",
+    "artist": "Mariachi Los Camperos",
+    "singers": "Coro",
+    "streaming_url": null
+  },
+  {
+    "title": "Besame Mucho",
+    "category": "Events",
+    "key": "Am",
+    "artist": "Consuelo Velazquez",
+    "singers": "Renata",
+    "streaming_url": null
+  },
+  {
+    "title": "Camino de Guanajuato",
+    "category": "Events",
+    "key": "F",
+    "artist": "José Alfredo Jiménez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Caminos de Michoacán",
+    "category": "Events",
+    "key": "E",
+    "artist": "Mariachi Nuevo Tecalitlan",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Cerca del Mar",
+    "category": "Events",
+    "key": "G",
+    "artist": "Ezequiel Cisneros",
+    "singers": "Coro",
+    "streaming_url": null
+  },
+  {
+    "title": "Cielito Lindo",
+    "category": "Events",
+    "key": null,
+    "artist": null,
+    "singers": "Coro",
+    "streaming_url": null
+  },
+  {
+    "title": "Cielo Rojo",
+    "category": "Events",
+    "key": "Dm/Dmaj",
+    "artist": "Majo Aguilar",
+    "singers": "Renata",
+    "streaming_url": null
+  },
+  {
+    "title": "Como Quien Pierde Una Estrella",
+    "category": "Events",
+    "key": "Am",
+    "artist": "Alejandro Fernandez",
+    "singers": "Marco & Julian",
+    "streaming_url": null
+  },
+  {
+    "title": "Con La Tierra Encima",
+    "category": "Events",
+    "key": "C",
+    "artist": "Banda El Recodo de Chuy Lizarraga",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Cruz de Olvido",
+    "category": "Events",
+    "key": "F",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Cuando Yo Queria Ser Grande",
+    "category": "Events",
+    "key": "Fm",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Cucurrucucu, Paloma",
+    "category": "Events",
+    "key": "F",
+    "artist": "Lola Beltran",
+    "singers": "Renata",
+    "streaming_url": null
+  },
+  {
+    "title": "De Qué Manera Te Olvido",
+    "category": "Events",
+    "key": "G/Bb",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Disename",
+    "category": "Events",
+    "key": "C",
+    "artist": "Joan Sebastian",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "El Ausente",
+    "category": "Events",
+    "key": "A",
+    "artist": "Antonio Aguilar",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "El Aventurero",
+    "category": "Events",
+    "key": null,
+    "artist": "Pedro Fernandez",
+    "singers": "Julian",
+    "streaming_url": null
+  },
+  {
+    "title": "El Cascabel",
+    "category": "Events",
+    "key": null,
+    "artist": null,
+    "singers": "Julian",
+    "streaming_url": null
+  },
+  {
+    "title": "El Hombre Que Mas Te Amo",
+    "category": "Events",
+    "key": "F",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "El Jinete",
+    "category": "Events",
+    "key": "Em",
+    "artist": "Jose Alfredo Jimenez",
+    "singers": "Julian",
+    "streaming_url": null
+  },
+  {
+    "title": "Ella",
+    "category": "Events",
+    "key": "A",
+    "artist": "Jose Alfredo Jimenez",
+    "singers": "Julian",
+    "streaming_url": null
+  },
+  {
+    "title": "El Mariachi Loco",
+    "category": "Events",
+    "key": "G",
+    "artist": null,
+    "singers": "Coro",
+    "streaming_url": null
+  },
+  {
+    "title": "El Moro de Cumpas",
+    "category": "Events",
+    "key": "D",
+    "artist": "Vicente Fernández",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "El Pitayero",
+    "category": "Events",
+    "key": null,
+    "artist": null,
+    "singers": "Yureth, Erica & Alexa",
+    "streaming_url": null
+  },
+  {
+    "title": "El Rey",
+    "category": "Events",
+    "key": "C",
+    "artist": "Vicente Fernández",
+    "singers": "Marco & Julian",
+    "streaming_url": null
+  },
+  {
+    "title": "El Son de la Negra",
+    "category": "Events",
+    "key": "G",
+    "artist": null,
+    "singers": "Coro",
+    "streaming_url": null
+  },
+  {
+    "title": "El Zopilote Mojado",
+    "category": "Events",
+    "key": null,
+    "artist": null,
+    "singers": null,
+    "streaming_url": null
+  },
+  {
+    "title": "En Tu Dia",
+    "category": "Events",
+    "key": "G",
+    "artist": "Mariachi Vargas de Tecalitlan",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Gema",
+    "category": "Events",
+    "key": "B & Gm",
+    "artist": "Mariachi Nuevo Tecalitlan",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Guadalajara",
+    "category": "Events",
+    "key": "C",
+    "artist": "Vicente Fernandez",
+    "singers": "Julian",
+    "streaming_url": null
+  },
+  {
+    "title": "Hermoso Cariño",
+    "category": "Events",
+    "key": "C",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "La Basurita",
+    "category": "Events",
+    "key": null,
+    "artist": null,
+    "singers": "Renata",
+    "streaming_url": null
+  },
+  {
+    "title": "La Bamba",
+    "category": "Events",
+    "key": "C",
+    "artist": null,
+    "singers": "Julian",
+    "streaming_url": null
+  },
+  {
+    "title": "La Bikina",
+    "category": "Events",
+    "key": null,
+    "artist": "Luis Miguel",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "La Feria de Las Flores",
+    "category": "Events",
+    "key": "D",
+    "artist": null,
+    "singers": "Coro",
+    "streaming_url": null
+  },
+  {
+    "title": "La Llorona",
+    "category": "Events",
+    "key": "Gm",
+    "artist": "Angela Aguilar",
+    "singers": "Renata",
+    "streaming_url": null
+  },
+  {
+    "title": "La Misma",
+    "category": "Events",
+    "key": "G",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "La Venia Bendita",
+    "category": "Events",
+    "key": "C",
+    "artist": "Marco Antonio Solis",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Las Golondrinas",
+    "category": "Events",
+    "key": "D",
+    "artist": "Mariachi Nuevo Tecalitlan",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Las Mananitas",
+    "category": "Events",
+    "key": "A",
+    "artist": null,
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Mexico En La Piel",
+    "category": "Events",
+    "key": "C",
+    "artist": "Luis Miguel",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Mexico Lindo Y Querido",
+    "category": "Events",
+    "key": "G",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco & Julian",
+    "streaming_url": null
+  },
+  {
+    "title": "Mi Amigo El Tordillo",
+    "category": "Events",
+    "key": "G",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Mi Viejo",
+    "category": "Events",
+    "key": "Gm",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Mujeres Divinas",
+    "category": "Events",
+    "key": "Bb",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco & Julian",
+    "streaming_url": null
+  },
+  {
+    "title": "Nadie Es Eterno",
+    "category": "Events",
+    "key": "F",
+    "artist": "Adan Sanchez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "No Hay Novedad",
+    "category": "Events",
+    "key": "G",
+    "artist": "Los Cadetes de Linares",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "No Me Queda Mas",
+    "category": "Events",
+    "key": "D",
+    "artist": "Selena Quintanilla",
+    "singers": "Renata",
+    "streaming_url": null
+  },
+  {
+    "title": "Paloma Errante",
+    "category": "Events",
+    "key": "F",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Paloma Querida",
+    "category": "Events",
+    "key": "G & C",
+    "artist": "Pedro Fernandez",
+    "singers": "Julian",
+    "streaming_url": null
+  },
+  {
+    "title": "Perfume de Gardenias",
+    "category": "Events",
+    "key": "F",
+    "artist": "Mariachi Nuevo Tecalitlan",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Playa Sola",
+    "category": "Events",
+    "key": "G",
+    "artist": "Lalo Mora",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Por Tu Maldito Amor",
+    "category": "Events",
+    "key": "A",
+    "artist": "Vicente Fernandez",
+    "singers": "Julian",
+    "streaming_url": null
+  },
+  {
+    "title": "Por Un Amor",
+    "category": "Events",
+    "key": "C",
+    "artist": "Luis Miguel",
+    "singers": "Yureth",
+    "streaming_url": null
+  },
+  {
+    "title": "Sabes Una Cosa",
+    "category": "Events",
+    "key": "C",
+    "artist": "Luis Miguel",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Se Me Olvido Otra Vez",
+    "category": "Events",
+    "key": "F",
+    "artist": "Juan Gabriel",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Serenata En Mayo",
+    "category": "Events",
+    "key": "G",
+    "artist": "Kanales",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Se Va Muriendo Mi Alma",
+    "category": "Events",
+    "key": "F",
+    "artist": "Mariachi Nuevo Tamazula",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Sin ti",
+    "category": "Events",
+    "key": "C",
+    "artist": "Los Panchos",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Si Nos Dejan",
+    "category": "Events",
+    "key": "C",
+    "artist": "Jose Alfredo Jimenez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Solamente Una Vez",
+    "category": "Events",
+    "key": "F",
+    "artist": "Agustín Lara",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Sublime Mujer",
+    "category": "Events",
+    "key": "Dm",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Te Vas Ángel Mío",
+    "category": "Events",
+    "key": "G",
+    "artist": "Pesado",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Tragos Amargos",
+    "category": "Events",
+    "key": "C",
+    "artist": "Ramon Ayala",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Tu Solo Tu",
+    "category": "Events",
+    "key": "G",
+    "artist": "Selena Quintanilla",
+    "singers": "Renata",
+    "streaming_url": null
+  },
+  {
+    "title": "Una Copa Mas",
+    "category": "Events",
+    "key": "Dm",
+    "artist": "Vicente Fernández",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Una Pagina Mas",
+    "category": "Events",
+    "key": "G",
+    "artist": "Los Cadetes de Linares",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Un Millón de Primaveras",
+    "category": "Events",
+    "key": "Eb",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Un Puño de Tierra",
+    "category": "Events",
+    "key": "C",
+    "artist": "Ramon Ayala",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Volver Volver",
+    "category": "Events",
+    "key": "G",
+    "artist": "Vicente Fernandez",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Ya Me Voy Para Siempre",
+    "category": "Events",
+    "key": "F",
+    "artist": "Vicente Fernandez",
+    "singers": "Julian",
+    "streaming_url": null
+  },
+  {
+    "title": "Y Ándale",
+    "category": "Events",
+    "key": "G",
+    "artist": "Antonio Aguilar",
+    "singers": "Marco",
+    "streaming_url": null
+  },
+  {
+    "title": "Venimos Hoy A Tu Altar (Entrada)",
+    "category": "Church Ceremony",
+    "key": null,
+    "artist": null,
+    "singers": null,
+    "streaming_url": null
+  },
+  {
+    "title": "Senor, Ten Piedad",
+    "category": "Church Ceremony",
+    "key": null,
+    "artist": null,
+    "singers": null,
+    "streaming_url": null
+  },
+  {
+    "title": "Gloria",
+    "category": "Church Ceremony",
+    "key": null,
+    "artist": null,
+    "singers": null,
+    "streaming_url": null
+  },
+  {
+    "title": "Aleluya",
+    "category": "Church Ceremony",
+    "key": null,
+    "artist": null,
+    "singers": null,
+    "streaming_url": null
+  },
+  {
+    "title": "Ofertorio (Colecta)",
+    "category": "Church Ceremony",
+    "key": null,
+    "artist": null,
+    "singers": null,
+    "streaming_url": null
+  },
+  {
+    "title": "Santo",
+    "category": "Church Ceremony",
+    "key": null,
+    "artist": null,
+    "singers": null,
+    "streaming_url": null
+  },
+  {
+    "title": "Cordero de Dios (La Paz)",
+    "category": "Church Ceremony",
+    "key": null,
+    "artist": null,
+    "singers": null,
+    "streaming_url": null
+  },
+  {
+    "title": "Pescador de Hombres (Comunion)",
+    "category": "Church Ceremony",
+    "key": null,
+    "artist": null,
+    "singers": null,
+    "streaming_url": null
+  },
+  {
+    "title": "Amigo (Salida)",
+    "category": "Church Ceremony",
+    "key": null,
+    "artist": null,
+    "singers": null,
+    "streaming_url": null
+  }
+]
