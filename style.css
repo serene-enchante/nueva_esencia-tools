@@ -16,3 +16,16 @@ body{min-height:100vh;background:#26090e url("Background2-min.jpeg") center cent
 footer{color:#e4d5bd}
 @media(max-width:760px){body{background-attachment:scroll}.brand-logo{width:44px;height:44px}}
 main{padding-top:30px}
+@media(max-width:760px){
+  .random-panel{position:fixed;z-index:40;left:12px;right:12px;bottom:calc(10px + env(safe-area-inset-bottom));width:auto;max-width:none;margin:0;padding:14px 19px 20px;border-radius:20px;overflow-y:auto;overscroll-behavior:contain;transition:height .28s cubic-bezier(.2,.75,.25,1),top .28s cubic-bezier(.2,.75,.25,1),padding .28s ease}
+  .random-panel[data-sheet-state="half"]{height:52vh;height:52dvh;min-height:250px;max-height:460px}
+  .random-panel[data-sheet-state="full"]{top:calc(8px + env(safe-area-inset-top));bottom:calc(8px + env(safe-area-inset-bottom));height:auto;max-height:none}
+  .random-panel[data-sheet-state="collapsed"]{height:76px;min-height:76px;max-height:76px;padding:0 19px 5px;overflow:hidden}
+  .sheet-drag{position:relative;display:flex;align-items:center;gap:12px;width:100%;height:45px;flex:none;padding:12px 0 4px;border:0;background:transparent;color:var(--green);font:600 15px 'Playfair Display',serif;text-align:left;cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none}
+  .sheet-grab{position:absolute;top:4px;left:50%;width:35px;height:4px;border-radius:9px;transform:translateX(-50%);background:rgba(101,28,50,.32)}
+  .sheet-mobile-title{flex:1}
+  .sheet-chevron{font-size:19px;color:#8C6C30}
+  .desktop-random-title{display:none}
+  .random-panel[data-sheet-state="collapsed"]>:not(.sheet-drag){display:none}
+  .random-panel[data-sheet-state="half"] .sheet-drag,.random-panel[data-sheet-state="full"] .sheet-drag{position:sticky;top:-14px;z-index:1;margin-top:-14px;padding-top:14px;background:rgba(241,232,215,.94);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+}
