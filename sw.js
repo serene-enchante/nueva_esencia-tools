@@ -8,6 +8,7 @@ const SHELL_FILES = [
   './songs.json',
   './manifest.webmanifest',
   './logo-disc.png',
+  './icons/app-icon.png',
   './icons/favicon-48.png',
   './icons/apple-touch-icon.png',
   './icons/icon-192.png',
