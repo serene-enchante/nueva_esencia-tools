@@ -15,3 +15,6 @@ body{min-height:100vh;background:#26090e url("Background2-min.jpeg") center cent
 .connection i.offline{background:#D9897E}
 footer{color:#e4d5bd}
 @media(max-width:760px){body{background-attachment:scroll}.brand-logo{width:44px;height:44px}}
+.panel{background:rgba(255,252,247,.82);border-color:rgba(255,246,232,.48);box-shadow:0 12px 36px rgba(30,5,12,.18);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.random-panel{background:rgba(241,232,215,.76)}
+.random-result{background:rgba(255,252,247,.78);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
